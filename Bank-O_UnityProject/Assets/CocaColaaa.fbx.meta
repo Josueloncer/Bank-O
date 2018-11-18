@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 44d5d30abac14f340af667da5de2be68
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.001
+    100004: Camera.002
+    100006: Camera.003
+    100008: Camera.004
+    100010: //RootNode
+    100012: Directional Light
+    100014: Directional Light.001
+    100016: Directional Light.002
+    100018: Directional Light.003
+    100020: Lamp
+    100022: Mesh
+    100024: Texture Group
+    100026: Texture Group.001
+    100028: Texture Group.002
+    100030: Texture Group.003
+    400000: Camera
+    400002: Camera.001
+    400004: Camera.002
+    400006: Camera.003
+    400008: Camera.004
+    400010: //RootNode
+    400012: Directional Light
+    400014: Directional Light.001
+    400016: Directional Light.002
+    400018: Directional Light.003
+    400020: Lamp
+    400022: Mesh
+    400024: Texture Group
+    400026: Texture Group.001
+    400028: Texture Group.002
+    400030: Texture Group.003
+    2000000: Camera
+    2000002: Camera.001
+    2000004: Camera.002
+    2000006: Camera.003
+    2000008: Camera.004
+    2100000: Azul.002
+    2100002: Default.002
+    2100004: Blanco.002
+    2300000: Mesh
+    3300000: Mesh
+    4300000: Mesh
+    7400000: Directional Light.003|Camera.001|Take 001|Layer 001
+    7400002: Directional Light.003|Camera.002|Take 001|Layer 001
+    7400004: Directional Light.003|Camera.003|Take 001|Layer 001
+    7400006: Directional Light.003|Camera.004|Take 001|Layer 001
+    7400008: Directional Light.003|Directional Light.001|Take 001|Layer 001
+    7400010: Directional Light.003|Directional Light.002|Take 001|Layer 001
+    7400012: Directional Light.003|Directional Light.003|Take 001|Layer 001
+    7400014: Directional Light.003|Directional Light|Take 001|Layer 001
+    7400016: Directional Light.003|Mesh.001|Take 001|Layer 001
+    7400018: Directional Light.003|Mesh|Take 001|Layer 001
+    7400020: Directional Light.003|Mesh|Take 001|Layer 001.001
+    7400022: Directional Light.003|Mesh|Take 001|Layer 001.002
+    7400024: Directional Light.003|Texture Group.001|Take 001|Layer 001
+    7400026: Directional Light.003|Texture Group.002|Take 001|Layer 001
+    7400028: Directional Light.003|Texture Group.003|Take 001|Layer 001
+    7400030: Directional Light.003|Texture Group|Take 001|Layer 001
+    7400032: Texture Group.003|Camera.001|Take 001|Layer 001
+    7400034: Texture Group.003|Camera.002|Take 001|Layer 001
+    7400036: Texture Group.003|Camera.003|Take 001|Layer 001
+    7400038: Texture Group.003|Camera.004|Take 001|Layer 001
+    7400040: Texture Group.003|Directional Light.001|Take 001|Layer 001
+    7400042: Texture Group.003|Directional Light.002|Take 001|Layer 001
+    7400044: Texture Group.003|Directional Light.003|Take 001|Layer 001
+    7400046: Texture Group.003|Directional Light|Take 001|Layer 001
+    7400048: Texture Group.003|Mesh.001|Take 001|Layer 001
+    7400050: Texture Group.003|Mesh|Take 001|Layer 001
+    7400052: Texture Group.003|Mesh|Take 001|Layer 001.001
+    7400054: Texture Group.003|Mesh|Take 001|Layer 001.002
+    7400056: Texture Group.003|Texture Group.001|Take 001|Layer 001
+    7400058: Texture Group.003|Texture Group.002|Take 001|Layer 001
+    7400060: Texture Group.003|Texture Group.003|Take 001|Layer 001
+    7400062: Texture Group.003|Texture Group|Take 001|Layer 001
+    7400064: Camera.004|Camera.001|Take 001|Layer 001
+    7400066: Camera.004|Camera.002|Take 001|Layer 001
+    7400068: Camera.004|Camera.003|Take 001|Layer 001
+    7400070: Camera.004|Camera.004|Take 001|Layer 001
+    7400072: Camera.004|Directional Light.001|Take 001|Layer 001
+    7400074: Camera.004|Directional Light.002|Take 001|Layer 001
+    7400076: Camera.004|Directional Light.003|Take 001|Layer 001
+    7400078: Camera.004|Directional Light|Take 001|Layer 001
+    7400080: Camera.004|Mesh.001|Take 001|Layer 001
+    7400082: Camera.004|Mesh|Take 001|Layer 001
+    7400084: Camera.004|Mesh|Take 001|Layer 001.001
+    7400086: Camera.004|Mesh|Take 001|Layer 001.002
+    7400088: Camera.004|Texture Group.001|Take 001|Layer 001
+    7400090: Camera.004|Texture Group.002|Take 001|Layer 001
+    7400092: Camera.004|Texture Group.003|Take 001|Layer 001
+    7400094: Camera.004|Texture Group|Take 001|Layer 001
+    7400096: Mesh|Camera.001|Take 001|Layer 001
+    7400098: Mesh|Camera.002|Take 001|Layer 001
+    7400100: Mesh|Camera.003|Take 001|Layer 001
+    7400102: Mesh|Camera.004|Take 001|Layer 001
+    7400104: Mesh|Directional Light.001|Take 001|Layer 001
+    7400106: Mesh|Directional Light.002|Take 001|Layer 001
+    7400108: Mesh|Directional Light.003|Take 001|Layer 001
+    7400110: Mesh|Directional Light|Take 001|Layer 001
+    7400112: Mesh|Mesh.001|Take 001|Layer 001
+    7400114: Mesh|Mesh|Take 001|Layer 001
+    7400116: Mesh|Mesh|Take 001|Layer 001.001
+    7400118: Mesh|Mesh|Take 001|Layer 001.002
+    7400120: Mesh|Texture Group.001|Take 001|Layer 001
+    7400122: Mesh|Texture Group.002|Take 001|Layer 001
+    7400124: Mesh|Texture Group.003|Take 001|Layer 001
+    7400126: Mesh|Texture Group|Take 001|Layer 001
+    7400128: Directional Light.002|Camera.001|Take 001|Layer 001
+    7400130: Directional Light.002|Camera.002|Take 001|Layer 001
+    7400132: Directional Light.002|Camera.003|Take 001|Layer 001
+    7400134: Directional Light.002|Camera.004|Take 001|Layer 001
+    7400136: Directional Light.002|Directional Light.001|Take 001|Layer 001
+    7400138: Directional Light.002|Directional Light.002|Take 001|Layer 001
+    7400140: Directional Light.002|Directional Light.003|Take 001|Layer 001
+    7400142: Directional Light.002|Directional Light|Take 001|Layer 001
+    7400144: Directional Light.002|Mesh.001|Take 001|Layer 001
+    7400146: Directional Light.002|Mesh|Take 001|Layer 001
+    7400148: Directional Light.002|Mesh|Take 001|Layer 001.001
+    7400150: Directional Light.002|Mesh|Take 001|Layer 001.002
+    7400152: Directional Light.002|Texture Group.001|Take 001|Layer 001
+    7400154: Directional Light.002|Texture Group.002|Take 001|Layer 001
+    7400156: Directional Light.002|Texture Group.003|Take 001|Layer 001
+    7400158: Directional Light.002|Texture Group|Take 001|Layer 001
+    7400160: Texture Group.002|Camera.001|Take 001|Layer 001
+    7400162: Texture Group.002|Camera.002|Take 001|Layer 001
+    7400164: Texture Group.002|Camera.003|Take 001|Layer 001
+    7400166: Texture Group.002|Camera.004|Take 001|Layer 001
+    7400168: Texture Group.002|Directional Light.001|Take 001|Layer 001
+    7400170: Texture Group.002|Directional Light.002|Take 001|Layer 001
+    7400172: Texture Group.002|Directional Light.003|Take 001|Layer 001
+    7400174: Texture Group.002|Directional Light|Take 001|Layer 001
+    7400176: Texture Group.002|Mesh.001|Take 001|Layer 001
+    7400178: Texture Group.002|Mesh|Take 001|Layer 001
+    7400180: Texture Group.002|Mesh|Take 001|Layer 001.001
+    7400182: Texture Group.002|Mesh|Take 001|Layer 001.002
+    7400184: Texture Group.002|Texture Group.001|Take 001|Layer 001
+    7400186: Texture Group.002|Texture Group.002|Take 001|Layer 001
+    7400188: Texture Group.002|Texture Group.003|Take 001|Layer 001
+    7400190: Texture Group.002|Texture Group|Take 001|Layer 001
+    7400192: Camera.003|Camera.001|Take 001|Layer 001
+    7400194: Camera.003|Camera.002|Take 001|Layer 001
+    7400196: Camera.003|Camera.003|Take 001|Layer 001
+    7400198: Camera.003|Camera.004|Take 001|Layer 001
+    7400200: Camera.003|Directional Light.001|Take 001|Layer 001
+    7400202: Camera.003|Directional Light.002|Take 001|Layer 001
+    7400204: Camera.003|Directional Light.003|Take 001|Layer 001
+    7400206: Camera.003|Directional Light|Take 001|Layer 001
+    7400208: Camera.003|Mesh.001|Take 001|Layer 001
+    7400210: Camera.003|Mesh|Take 001|Layer 001
+    7400212: Camera.003|Mesh|Take 001|Layer 001.001
+    7400214: Camera.003|Mesh|Take 001|Layer 001.002
+    7400216: Camera.003|Texture Group.001|Take 001|Layer 001
+    7400218: Camera.003|Texture Group.002|Take 001|Layer 001
+    7400220: Camera.003|Texture Group.003|Take 001|Layer 001
+    7400222: Camera.003|Texture Group|Take 001|Layer 001
+    7400224: Directional Light.001|Camera.001|Take 001|Layer 001
+    7400226: Directional Light.001|Camera.002|Take 001|Layer 001
+    7400228: Directional Light.001|Camera.003|Take 001|Layer 001
+    7400230: Directional Light.001|Camera.004|Take 001|Layer 001
+    7400232: Directional Light.001|Directional Light.001|Take 001|Layer 001
+    7400234: Directional Light.001|Directional Light.002|Take 001|Layer 001
+    7400236: Directional Light.001|Directional Light.003|Take 001|Layer 001
+    7400238: Directional Light.001|Directional Light|Take 001|Layer 001
+    7400240: Directional Light.001|Mesh.001|Take 001|Layer 001
+    7400242: Directional Light.001|Mesh|Take 001|Layer 001
+    7400244: Directional Light.001|Mesh|Take 001|Layer 001.001
+    7400246: Directional Light.001|Mesh|Take 001|Layer 001.002
+    7400248: Directional Light.001|Texture Group.001|Take 001|Layer 001
+    7400250: Directional Light.001|Texture Group.002|Take 001|Layer 001
+    7400252: Directional Light.001|Texture Group.003|Take 001|Layer 001
+    7400254: Directional Light.001|Texture Group|Take 001|Layer 001
+    7400256: Texture Group.001|Camera.001|Take 001|Layer 001
+    7400258: Texture Group.001|Camera.002|Take 001|Layer 001
+    7400260: Texture Group.001|Camera.003|Take 001|Layer 001
+    7400262: Texture Group.001|Camera.004|Take 001|Layer 001
+    7400264: Texture Group.001|Directional Light.001|Take 001|Layer 001
+    7400266: Texture Group.001|Directional Light.002|Take 001|Layer 001
+    7400268: Texture Group.001|Directional Light.003|Take 001|Layer 001
+    7400270: Texture Group.001|Directional Light|Take 001|Layer 001
+    7400272: Texture Group.001|Mesh.001|Take 001|Layer 001
+    7400274: Texture Group.001|Mesh|Take 001|Layer 001
+    7400276: Texture Group.001|Mesh|Take 001|Layer 001.001
+    7400278: Texture Group.001|Mesh|Take 001|Layer 001.002
+    7400280: Texture Group.001|Texture Group.001|Take 001|Layer 001
+    7400282: Texture Group.001|Texture Group.002|Take 001|Layer 001
+    7400284: Texture Group.001|Texture Group.003|Take 001|Layer 001
+    7400286: Texture Group.001|Texture Group|Take 001|Layer 001
+    7400288: Camera.002|Camera.001|Take 001|Layer 001
+    7400290: Camera.002|Camera.002|Take 001|Layer 001
+    7400292: Camera.002|Camera.003|Take 001|Layer 001
+    7400294: Camera.002|Camera.004|Take 001|Layer 001
+    7400296: Camera.002|Directional Light.001|Take 001|Layer 001
+    7400298: Camera.002|Directional Light.002|Take 001|Layer 001
+    7400300: Camera.002|Directional Light.003|Take 001|Layer 001
+    7400302: Camera.002|Directional Light|Take 001|Layer 001
+    7400304: Camera.002|Mesh.001|Take 001|Layer 001
+    7400306: Camera.002|Mesh|Take 001|Layer 001
+    7400308: Camera.002|Mesh|Take 001|Layer 001.001
+    7400310: Camera.002|Mesh|Take 001|Layer 001.002
+    7400312: Camera.002|Texture Group.001|Take 001|Layer 001
+    7400314: Camera.002|Texture Group.002|Take 001|Layer 001
+    7400316: Camera.002|Texture Group.003|Take 001|Layer 001
+    7400318: Camera.002|Texture Group|Take 001|Layer 001
+    7400320: Directional Light|Camera.001|Take 001|Layer 001
+    7400322: Directional Light|Camera.002|Take 001|Layer 001
+    7400324: Directional Light|Camera.003|Take 001|Layer 001
+    7400326: Directional Light|Camera.004|Take 001|Layer 001
+    7400328: Directional Light|Directional Light.001|Take 001|Layer 001
+    7400330: Directional Light|Directional Light.002|Take 001|Layer 001
+    7400332: Directional Light|Directional Light.003|Take 001|Layer 001
+    7400334: Directional Light|Directional Light|Take 001|Layer 001
+    7400336: Directional Light|Mesh.001|Take 001|Layer 001
+    7400338: Directional Light|Mesh|Take 001|Layer 001
+    7400340: Directional Light|Mesh|Take 001|Layer 001.001
+    7400342: Directional Light|Mesh|Take 001|Layer 001.002
+    7400344: Directional Light|Texture Group.001|Take 001|Layer 001
+    7400346: Directional Light|Texture Group.002|Take 001|Layer 001
+    7400348: Directional Light|Texture Group.003|Take 001|Layer 001
+    7400350: Directional Light|Texture Group|Take 001|Layer 001
+    7400352: Texture Group|Camera.001|Take 001|Layer 001
+    7400354: Texture Group|Camera.002|Take 001|Layer 001
+    7400356: Texture Group|Camera.003|Take 001|Layer 001
+    7400358: Texture Group|Camera.004|Take 001|Layer 001
+    7400360: Texture Group|Directional Light.001|Take 001|Layer 001
+    7400362: Texture Group|Directional Light.002|Take 001|Layer 001
+    7400364: Texture Group|Directional Light.003|Take 001|Layer 001
+    7400366: Texture Group|Directional Light|Take 001|Layer 001
+    7400368: Texture Group|Mesh.001|Take 001|Layer 001
+    7400370: Texture Group|Mesh|Take 001|Layer 001
+    7400372: Texture Group|Mesh|Take 001|Layer 001.001
+    7400374: Texture Group|Mesh|Take 001|Layer 001.002
+    7400376: Texture Group|Texture Group.001|Take 001|Layer 001
+    7400378: Texture Group|Texture Group.002|Take 001|Layer 001
+    7400380: Texture Group|Texture Group.003|Take 001|Layer 001
+    7400382: Texture Group|Texture Group|Take 001|Layer 001
+    7400384: Camera.001|Camera.001|Take 001|Layer 001
+    7400386: Camera.001|Camera.002|Take 001|Layer 001
+    7400388: Camera.001|Camera.003|Take 001|Layer 001
+    7400390: Camera.001|Camera.004|Take 001|Layer 001
+    7400392: Camera.001|Directional Light.001|Take 001|Layer 001
+    7400394: Camera.001|Directional Light.002|Take 001|Layer 001
+    7400396: Camera.001|Directional Light.003|Take 001|Layer 001
+    7400398: Camera.001|Directional Light|Take 001|Layer 001
+    7400400: Camera.001|Mesh.001|Take 001|Layer 001
+    7400402: Camera.001|Mesh|Take 001|Layer 001
+    7400404: Camera.001|Mesh|Take 001|Layer 001.001
+    7400406: Camera.001|Mesh|Take 001|Layer 001.002
+    7400408: Camera.001|Texture Group.001|Take 001|Layer 001
+    7400410: Camera.001|Texture Group.002|Take 001|Layer 001
+    7400412: Camera.001|Texture Group.003|Take 001|Layer 001
+    7400414: Camera.001|Texture Group|Take 001|Layer 001
+    9500000: //RootNode
+    10800000: Directional Light
+    10800002: Directional Light.001
+    10800004: Directional Light.002
+    10800006: Directional Light.003
+    10800008: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
