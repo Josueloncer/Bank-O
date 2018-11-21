@@ -16,6 +16,6 @@ public class Dinero : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        dinero.text = "Dinero" + dineroo;
+        //dinero.text = "Dinero" + dineroo;
     }
 }
