@@ -13,10 +13,10 @@ public class ElevatorManager : MonoBehaviour {
     private float scaleSpeed = 0.5f;
     private float goingUpSpeed = 0.5f;
 
-    private float doorsClosedScale = 1f;
-    private float doorsOpenScale = 0.13405f;
-    private float ElevetorDownY = 0f;
-    private float ElevetorUpY = 1.668f;
+    public float doorsClosedScale = 1f;
+    public float doorsOpenScale = 0.13405f;
+    public float ElevetorDownY = 0f;
+    public float ElevetorUpY = 1.668f;
 
     public bool isUp = false;
     public bool isOpen = false;
