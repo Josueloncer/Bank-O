@@ -30,7 +30,6 @@ public class Movimiento : MonoBehaviour {
         float vert = Input.GetAxis("Vertical");
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            Debug.Log("Corriendo");
             moveDirSide = horiz * (velocidad * 1.8f) * Time.deltaTime;
             moveDirForward = vert * (velocidad * 1.8f) * Time.deltaTime;
         }
