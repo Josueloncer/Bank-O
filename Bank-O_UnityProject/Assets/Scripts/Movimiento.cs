@@ -3,49 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Movimiento : MonoBehaviour {
-
-    CharacterController charControl;
     public float velocidad;
     private bool left;
     private bool right;
+    float moveDirSide = 0;
+    float moveDirForward = 0;
 
 
     // Use this for initialization
-    
- 
+
+
     void Start()
     {
         left = true;
         right = false;
     }
 
-
-
-    void Awake () {
-        charControl = GetComponent<CharacterController>();
-	}
-	
 	// Update is called once per frame
 	void Update () {
-
         MovePlayer();
-
     }
 
     void MovePlayer()
     {
         float horiz = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            Debug.Log("Corriendo");
+            moveDirSide = horiz * (velocidad * 1.8f) * Time.deltaTime;
+            moveDirForward = vert * (velocidad * 1.8f) * Time.deltaTime;
+        }
+        else
+        {
+            moveDirSide = horiz * velocidad * Time.deltaTime;
+            moveDirForward = vert * velocidad * Time.deltaTime;
+        }
 
-        float moveDirSide = /*transform.right */ horiz * velocidad * Time.deltaTime;
-        float moveDirForward = /*transform.forward */ vert * velocidad * Time.deltaTime;
-
-        //charControl.SimpleMove(moveDirSide);
-        //charControl.SimpleMove(moveDirForward);
         transform.Translate(moveDirSide, 0, moveDirForward);
-
-
-
-
     }
 }
