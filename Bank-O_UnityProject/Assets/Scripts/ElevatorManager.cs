@@ -18,6 +18,9 @@ public class ElevatorManager : MonoBehaviour {
     private float ElevetorDownY = 0f;
     private float ElevetorUpY = 1.668f;
 
+    public bool isUp = false;
+    public bool isOpen = false;
+
     // Use this for initialization
     void Start () {
         
@@ -26,13 +29,21 @@ public class ElevatorManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.E))
+        if(transform.position.y >= ElevetorUpY)
         {
-            OpenElevator();
+            isUp = true;
         }
-        if (Input.GetKeyDown(KeyCode.W))
+        else
         {
-            MoveElevator();
+            isUp = false;
+        }
+
+        if(puertaIzq.transform.localScale.z < doorsClosedScale || puertaDer.transform.localScale.z < doorsClosedScale)
+        {
+            isOpen = true;
+        }else
+        {
+            isOpen = false;
         }
     }
 
@@ -40,12 +51,12 @@ public class ElevatorManager : MonoBehaviour {
     {
         if(puertaIzq.transform.localScale.z > doorsOpenScale || puertaDer.transform.localScale.z > doorsOpenScale)
         {
-            StopAllCoroutines();
+            StopCoroutine("CloseDoors");
             StartCoroutine("OpenDoors");
         }
         else if(puertaIzq.transform.localScale.z < doorsClosedScale || puertaDer.transform.localScale.z < doorsClosedScale)
         {
-            StopAllCoroutines();
+            StopCoroutine("OpenDoors");
             StartCoroutine("CloseDoors");
         }
         
@@ -55,12 +66,12 @@ public class ElevatorManager : MonoBehaviour {
     {
         if (transform.position.y < ElevetorUpY)
         {
-            StopAllCoroutines();
+            StopCoroutine("GoingDown");
             StartCoroutine("GoingUp");
         }
         else
         {
-            StopAllCoroutines();
+            StopCoroutine("GoingUp");
             StartCoroutine("GoingDown");
         }
     }
