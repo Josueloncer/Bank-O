@@ -4403,6 +4403,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144215310}
   m_Mesh: {fileID: 4300012, guid: feb510a4663db6746a6ac646270facf0, type: 3}
+--- !u!1 &154036810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1846777519676952, guid: 331e2396bef849141bc86434d1ad36b5,
+    type: 2}
+  m_PrefabInternal: {fileID: 2049192278}
 --- !u!4 &155358543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4319935127008524, guid: 599a1232bad63204698ee646f0f35ef9,
@@ -33816,6 +33821,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 114233731894372264, guid: a92f73aca923f9744a17bffe3aee3336,
+        type: 2}
+      propertyPath: pisoDesaparecer
+      value: 
+      objectReference: {fileID: 154036810}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92f73aca923f9744a17bffe3aee3336, type: 2}
   m_IsPrefabAsset: 0
