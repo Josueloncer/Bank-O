@@ -37,12 +37,12 @@ public class Movimiento : MonoBehaviour {
         float horiz = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
 
-        Vector3 moveDirSide = transform.right * horiz * velocidad;
-        Vector3 moveDirForward = transform.forward * vert * velocidad;
+        float moveDirSide = /*transform.right */ horiz * velocidad * Time.deltaTime;
+        float moveDirForward = /*transform.forward */ vert * velocidad * Time.deltaTime;
 
-        charControl.SimpleMove(moveDirSide);
-        charControl.SimpleMove(moveDirForward);
-
+        //charControl.SimpleMove(moveDirSide);
+        //charControl.SimpleMove(moveDirForward);
+        transform.Translate(moveDirSide, 0, moveDirForward);
 
 
 
