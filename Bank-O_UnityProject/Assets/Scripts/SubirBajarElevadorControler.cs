@@ -28,7 +28,7 @@ public class SubirBajarElevadorControler : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 pisoDesaparecer.GetComponent<BoxCollider>().enabled = false;
                 //elevatorManager.OpenElevator();

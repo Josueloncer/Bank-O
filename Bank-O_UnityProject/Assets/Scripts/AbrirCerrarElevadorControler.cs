@@ -19,7 +19,11 @@ public class AbrirCerrarElevadorControler : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            if(Input.GetMouseButtonDown(0))
+            /*if(Input.GetMouseButtonDown(0))
+            {
+                elevatorManager.OpenElevator();
+            }*/
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 elevatorManager.OpenElevator();
             }
