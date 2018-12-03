@@ -10,11 +10,15 @@ public class TakeObject : MonoBehaviour {
     string tagOro = "Oro";
     GameObject objectTrigger;
     public Text textoVaro;
-    private int varo = 0;
+    public static int varo;
+    public AudioSource sonido;
+
+    public GameObject textFullMoney;
+    private bool Dinerolleno;
 
 	// Use this for initialization
 	void Start () {
-        textoVaro.text = "$" + varo.ToString();
+        varo = 0;
 	}
 	
 	// Update is called once per frame
@@ -26,22 +30,45 @@ public class TakeObject : MonoBehaviour {
                 CatchMoney();
             }
         }
+        MaxMoney();
+        textoVaro.text = "$" + varo.ToString();
     }
 
     public void CatchMoney()
     {
-        if(objectTrigger.tag == tagBilletes)
-        {
-            Debug.Log("Agarraste billullo");
-            varo += 1000;
-            Destroy(objectTrigger.transform.parent.gameObject);
-        }else if(objectTrigger.tag == tagOro)
-        {
-            Debug.Log("Agarraste oro");
-            varo += 10000;
-            Destroy(objectTrigger.transform.parent.gameObject);
-        }
+        if(Dinerolleno == true)
+            if(objectTrigger.tag == tagBilletes)
+            {
+
+                Debug.Log("Agarraste billullo");
+                sonido.Play();
+                varo += 1000;
+
+                Destroy(objectTrigger.transform.parent.gameObject);
+            }else if(objectTrigger.tag == tagOro)
+            {
+                Debug.Log("Agarraste oro");
+                varo += 10000;
+                sonido.Play();
+                Destroy(objectTrigger.transform.parent.gameObject);
+            }
         UpdateMoney();
+    }
+
+
+    public void MaxMoney()
+    {
+        if(varo >= 20000)
+        {
+            Dinerolleno = false;
+            textFullMoney.SetActive(true);
+        }
+
+        if(varo < 20000)
+        {
+            Dinerolleno = true;
+            textFullMoney.SetActive(false);
+        }
     }
 
     public void UpdateMoney()
