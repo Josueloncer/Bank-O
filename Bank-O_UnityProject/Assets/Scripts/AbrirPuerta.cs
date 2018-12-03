@@ -7,7 +7,7 @@ public class AbrirPuerta : MonoBehaviour {
     public bool T_ActivatedOpen = true;
     public bool T_ActivatedClose = false;
     public bool activateTrigger = false;
-    Animator animator;
+    public Animator animator;
     bool doorOpen;
 
     void Start()
@@ -16,7 +16,7 @@ public class AbrirPuerta : MonoBehaviour {
         T_ActivatedOpen = true;
         T_ActivatedClose = false;
 
-        animator = GetComponent<Animator>();
+        //animator = GetComponentInParent<Animator>();
         doorOpen = false;
 
 
